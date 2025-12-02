@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Rohan Deshar - Graphic Designer & Motion Graphics Artist</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+</head>
+
+<body>
+  <a class="skip-link" href="#main-content" style="position:absolute;left:-9999px;">Skip to content</a>
+
+  <!-- HERO SECTION -->
+  <header id="hero">
+    <video autoplay playsinline loop muted id="video-background" aria-hidden="true" poster="poster.jpg">
+      <source src="background-loop.mp4/background-loop.mp4" type="video/mp4" />
+      Your browser does not support the video tag.
+    </video>
+
+    <nav class="navbar">
+  <span class="logo">Rohan Deshar</span>
+
+  <ul class="nav-links">
+    <li><a href="#about">About</a></li>
+    <li><a href="#skills">Skills</a></li>
+    <li><a href="#projects">Projects</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+
+  <button class="menu-toggle" id="menu-button" aria-expanded="false">
+    ☰
+  </button>
+</nav>
+
+
+    <div class="hero-content">
+      <h1>Rohan Deshar</h1>
+      <p class="hero-subtitle">Graphic Designer • Motion Graphics Artist • Social Media Designer</p>
+      <a href="#projects" class="cta-button">Explore My Work</a>
+    </div>
+  </header>
+
+  <!-- MAIN CONTENT -->
+  <main id="main-content">
+
+    <!-- ABOUT SECTION -->
+    <section id="about" class="section">
+      <div class="container">
+        <h2>About Me</h2>
+        <p>Hello! I'm Rohan Deshar, a passionate Graphic Designer and Motion Graphics Artist. I specialize in creating visually engaging designs for web, social media, and animation. With a keen eye for detail and a creative mindset, I love transforming ideas into compelling visuals.</p>
+      </div>
+    </section>
+
+    <!-- SKILLS SECTION -->
+    <section id="skills" class="section">
+  <h2>My Skills</h2>
+  <div class="skills-grid">
+    <div class="skill-card">
+      <h3>Photoshop</h3>
+      <p>Expert</p>
+    </div>
+    <div class="skill-card">
+      <h3>After Effects</h3>
+      <p>Expert</p>
+    </div>
+    <div class="skill-card">
+      <h3>Illustrator</h3>
+      <p>Intermediate</p>
+    </div>
+    <div class="skill-card">
+      <h3>Video Editing</h3>
+      <p>Intermediate</p>
+    </div>
+    <!-- Add more skill-cards here -->
+  </div>
+</section>
+
+
+    <!-- PROJECTS SECTION -->
+    <section id="projects" class="section">
+      <div class="container">
+        <h2>My Projects</h2>
+        <div id="projects-grid">
+          <div class="project-card">
+            <div class="project-header">
+              <h3>Portfolio Website</h3>
+              <span class="project-tag">Web Design</span>
+            </div>
+            <p>A responsive personal portfolio website built using HTML, CSS, and JS showcasing my skills and projects.</p>
+            <a href="#" class="project-link">View Project →</a>
+          </div>
+
+          <div class="project-card">
+            <div class="project-header">
+              <h3>Motion Graphics Reel</h3>
+              <span class="project-tag">Animation</span>
+            </div>
+            <p>A short motion graphics reel created in After Effects highlighting animation and editing skills.</p>
+            <a href="#" class="project-link">View Project →</a>
+          </div>
+
+          <div class="project-card">
+            <div class="project-header">
+              <h3>Social Media Campaign</h3>
+              <span class="project-tag">Graphics</span>
+            </div>
+            <p>Designed multiple social media visuals and promotional posts for a brand, enhancing engagement.</p>
+            <a href="#" class="project-link">View Project →</a>
+          </div>
+
+          <div class="project-card">
+            <div class="project-header">
+              <h3>Logo Design Collection</h3>
+              <span class="project-tag">Branding</span>
+            </div>
+            <p>A set of logo designs created for various clients to establish unique and memorable brand identities.</p>
+            <a href="#" class="project-link">View Project →</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT SECTION -->
+    <section id="contact" class="section">
+      <div class="container">
+        <h2>Get In Touch</h2>
+        <p class="contact-intro">Want to collaborate or need a design for your brand? Let’s connect.</p>
+
+        <form id="contact-form-id" class="contact-form">
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" placeholder="Your Name" required />
+          </div>
+
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="you@example.com" required />
+          </div>
+
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" placeholder="Your message..." required></textarea>
+          </div>
+
+          <button type="submit" class="btn">Send Message</button>
+
+          <div id="form-message" role="status" aria-live="polite" style="margin-top:0.75rem;"></div>
+        </form>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 Rohan Deshar. All rights reserved.</p>
+      <div class="social-links">
+        <a href="#" aria-label="GitHub">GitHub</a>
+        <a href="#" aria-label="LinkedIn">LinkedIn</a>
+        <a href="#" aria-label="Twitter">Twitter</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- OPTIONAL AUDIO -->
+  <audio id="hover-audio" preload="auto">
+    <source src="click-sound.mp3" type="audio/mpeg" />
+  </audio>
+
+  <!-- SCRIPT -->
+  <script src="JAVA SCRIPT/script.js"></script>
+</body>
+</html>
